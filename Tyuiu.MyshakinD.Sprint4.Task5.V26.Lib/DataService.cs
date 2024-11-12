@@ -10,7 +10,7 @@ namespace Tyuiu.MyshakinD.Sprint4.Task5.V26.Lib
             {
                 for(int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    if (matrix[i, j] >= 0)
+                    if (matrix[i, j] > 0)
                     {
                         matrix[i, j] = 1;
                     }
