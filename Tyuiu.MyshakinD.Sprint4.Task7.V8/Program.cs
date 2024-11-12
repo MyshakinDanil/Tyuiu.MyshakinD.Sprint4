@@ -32,7 +32,7 @@ namespace Tyuiu.MyshakinD.Sprint4.Task7.V8
             {
                 for (int j = 0; j < colums; j++)
                 {
-                    Console.WriteLine($"{str[index]} \t");
+                    Console.WriteLine($"{str[index]} ");
                     index++;
                 }
                 Console.WriteLine();
